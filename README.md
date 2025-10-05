@@ -23,7 +23,7 @@ Tecnologias Utilizadas
 Organização do Repositório
 
 O projeto segue uma estrutura de diretórios limpa e modular:
-
+```
 utilitarios_essenciais/
 ├── index.html                  # Página principal (Hub de Ferramentas)
 ├── politica_privacidade.html    # Página Legal (Obrigatória para AdSense)
@@ -40,8 +40,9 @@ utilitarios_essenciais/
     ├── contador_palavras.html
     ├── conversor_unidades.html
     └── juros_compostos.html
+```
 
-🛠️ Lista de Ferramentas
+## 🛠️ Lista de Ferramentas
 
 O hub possui quatro ferramentas essenciais, cobrindo nichos de alto valor:
 Ferramenta	Nicho Principal	Foco da Receita
@@ -50,7 +51,7 @@ Calculadora de IMC	Saúde/Bem-Estar	Alto CPC (Planos de Saúde, Suplementos)
 Contador de Palavras e Caracteres	Marketing Digital/SEO	Alto CPC (Softwares de SEO, Agências)
 Conversor de Unidades	Produtividade/Educação	Alto Volume de Tráfego
 
-⚙️ Configuração e Instalação Local
+## ⚙️ Configuração e Instalação Local
 
 Para rodar o projeto localmente, basta clonar o repositório e abrir o arquivo index.html em seu navegador.
 Bash
