@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #007bff; /* Azul primário */
+}
+
+/* --- Estilos do Header e Navegação --- */
+header h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+header nav {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* --- Estilo do Hub (index.html) --- */
+.lista-ferramentas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ferramenta-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
+
+.ferramenta-card h3 {
+    color: #28a745;
+    font-size: 1.2em;
+}
+
+.botao-acessar {
+    display: block; /* Garante que o botão ocupe a largura total no card */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+/* --- Estilos das Ferramentas (Formulários) --- */
+.formulario-cjc label,
+.conversor-area label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario-cjc input[type="number"],
+.conversao-box select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-cjc button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+.formulario-cjc button:hover {
+    background-color: #218838;
+}
+
+/* Estilo do Contador */
+.ferramenta-area textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 1em;
+    box-sizing: border-box;
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* --- Estilos de Resultado --- */
+.resultado-box {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #e9f7ff;
+}
+
+.resultado-box strong {
+    font-size: 1.2em;
+    color: #dc3545; /* Destaque em vermelho */
+}
+
+.ganhos {
+    color: #28a745; 
+    font-weight: bold;
+}
+
+/* Espaço para Anúncios */
+.ad-space-top {
+    min-height: 90px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 90px;
+    border: 1px dashed #ccc;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a Tabela de IMC */
+.tabela-imc {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.tabela-imc table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabela-imc th, .tabela-imc td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela-imc th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Garante que o input de IMC (que usa a mesma classe do CJC) fique bom */
+.formulario-imc input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* --- Rodapé Padronizado --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}

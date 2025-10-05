@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades Online Grátis: Peso, Temperatura e Comprimento | Utilitários Essenciais</title>
+    <meta name="description" content="Converta rapidamente unidades de medida de peso (kg, lb), temperatura (°C, °F) e comprimento (metros, pés). Ferramenta simples e precisa.">
+    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Utilitários Essenciais: Conversor de Unidades Online</h1>
+        <nav>
+            <a href="../index.html">Início</a> | 
+            <a href="juros_compostos.html">Juros Compostos</a> | 
+            <a href="contador_palavras.html">Contador</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="ad-space-top">
+            </div>
+
+        <section class="ferramenta-area conversor-area">
+            <h2>Converter Unidades de Medida</h2>
+
+            <label for="valor-input">Valor a Converter:</label>
+            <input type="number" id="valor-input" value="1" oninput="converterUnidade()">
+
+            <div class="conversao-box">
+                <label for="tipo-conversao">Tipo de Conversão:</label>
+                <select id="tipo-conversao" onchange="converterUnidade()">
+                    <option value="temperatura">Temperatura (°C / °F)</option>
+                    <option value="peso">Peso (Kg / Libras)</option>
+                    <option value="comprimento">Comprimento (Metros / Pés)</option>
+                </select>
+            </div>
+            
+            <div id="resultado-conversor" class="resultado-box">
+                </div>
+
+        </section>
+
+        <section class="conteudo-seo">
+            <h2>A importância da conversão de unidades</h2>
+            <p>Seja na culinária, na engenharia ou em viagens internacionais, a conversão precisa de unidades é fundamental. Nossa ferramenta facilita isso, fornecendo resultados instantâneos para as medidas mais comuns.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Utilitários Essenciais - Desenvolvido por <a href="https://www.rvwtech.com.br" target="_blank">RVWtech</a></p>
+    </footer>
+
+    <script src="../js/conversor_unidades.js"></script> 
+</body>
+</html>

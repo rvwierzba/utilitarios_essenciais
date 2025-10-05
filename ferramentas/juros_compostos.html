@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos Online Grátis | Simule Investimentos</title>
+    <meta name="description" content="Use nossa calculadora de juros compostos para simular seus investimentos, aportes mensais e ver o poder da acumulação de riqueza. Rápido e fácil de usar.">
+    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>QuickCalcula: Calculadora de Juros Compostos Online Grátis</h1>
+        <nav>
+            <a href="../index.html">Início</a> | <a href="#">Outras Ferramentas</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="ad-space-top">
+            </div>
+
+        <section class="ferramenta-area">
+            <h2>Simule Seu Investimento e o Poder dos Juros Compostos</h2>
+            
+            <div class="formulario-cjc">
+                <label for="capital">Valor Inicial (Capital):</label>
+                <input type="number" id="capital" value="1000" min="0" step="100">
+
+                <label for="aporte">Aporte Mensal (Contribuição):</label>
+                <input type="number" id="aporte" value="100" min="0" step="50">
+
+                <label for="taxa">Taxa de Juros Anual (%):</label>
+                <input type="number" id="taxa" value="12" min="0" max="100" step="0.1">
+
+                <label for="periodo">Período de Tempo (Anos):</label>
+                <input type="number" id="periodo" value="10" min="1" max="50">
+
+                <button onclick="calcularJurosCompostos()">Calcular</button>
+            </div>
+
+            <div id="resultado-cjc" class="resultado-box">
+                <p>Insira os dados acima e clique em "Calcular" para ver o resultado.</p>
+            </div>
+
+        </section>
+
+        <section class="conteudo-seo">
+            <h2>O Que São Juros Compostos e Como Eles Multiplicam Seu Dinheiro?</h2>
+            <p>Juros compostos são juros sobre juros. Essa é a base da acumulação de riqueza. Ao invés de os juros incidirem apenas sobre o valor inicial, eles incidem sobre o valor atualizado (capital + juros anteriores), criando uma curva exponencial. Use nossa calculadora para ver o efeito disso em 5, 10 ou 20 anos...</p>
+            </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 QuickCalcula - Desenvolvido por <a href="https://www.rvwtech.com.br">RVWtech</a></p>
+    </footer>
+
+    <script src="../js/juros_compostos.js"></script> </body>
+</html>

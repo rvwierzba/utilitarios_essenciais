@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC Online Grátis e Tabela | Utilitários Essenciais</title>
+    <meta name="description" content="Calcule seu Índice de Massa Corporal (IMC) de forma rápida e descubra sua faixa de peso ideal. Ferramenta essencial para monitorar sua saúde e bem-estar.">
+    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Utilitários Essenciais: Calculadora de IMC Online</h1>
+        <nav>
+            <a href="../index.html">Início</a> | 
+            <a href="juros_compostos.html">Juros Compostos</a> | 
+            <a href="contador_palavras.html">Contador</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="ad-space-top">
+            </div>
+
+        <section class="ferramenta-area">
+            <h2>Calcule Seu Índice de Massa Corporal (IMC)</h2>
+            
+            <div class="formulario-imc">
+                <label for="peso">Seu Peso (Kg):</label>
+                <input type="number" id="peso" value="70" min="1" step="0.1">
+
+                <label for="altura">Sua Altura (Metros):</label>
+                <input type="number" id="altura" value="1.75" min="0.5" step="0.01">
+
+                <button onclick="calcularIMC()">Calcular IMC</button>
+            </div>
+
+            <div id="resultado-imc" class="resultado-box">
+                <p>Insira seu peso e altura e clique em "Calcular IMC".</p>
+            </div>
+
+            <div class="tabela-imc">
+                <h3>Classificação do IMC</h3>
+                <table>
+                    <tr><th>IMC</th><th>Classificação</th></tr>
+                    <tr><td>Menor que 18.5</td><td>Abaixo do peso</td></tr>
+                    <tr><td>18.5 a 24.9</td><td>Peso normal</td></tr>
+                    <tr><td>25.0 a 29.9</td><td>Sobrepeso</td></tr>
+                    <tr><td>30.0 a 39.9</td><td>Obesidade</td></tr>
+                    <tr><td>Acima de 40.0</td><td>Obesidade Grave</td></tr>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="conteudo-seo">
+            <h2>O que o resultado do IMC significa?</h2>
+            <p>O IMC é uma medida internacional que estima se você está no peso ideal. Ele é calculado dividindo o peso pela altura ao quadrado ($IMC = peso / altura^2$). Use nossa calculadora simples e consulte a tabela para entender sua classificação e os próximos passos para um estilo de vida mais saudável.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Utilitários Essenciais - Desenvolvido por <a href="https://www.rvwtech.com.br" target="_blank">RVWtech</a></p>
+    </footer>
+
+    <script src="../js/calculadora_imc.js"></script> 
+</body>
+</html>
